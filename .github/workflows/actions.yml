@@ -22,5 +22,4 @@ jobs:
 
     - name: Run Tests
       run: |
-        cd build
-        ctest
+        build/runTests
